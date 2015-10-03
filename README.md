@@ -11,7 +11,7 @@
 + Kriti Bhandari - Droplet creation and README
 + Rajashree Mandaogane - Building Jenkins server and gif
 + Ravina Dhruve - Post build execution and README
-___
+
 
 ### LINK TO PROJECT REPO
 https://github.com/mrajashree/requests
@@ -77,15 +77,13 @@ Manage Jenkins -> Manage Plugins -> Add Email-ext plugin
 ```
 
 
-+ Adding Webhook on the git repo which we want to build so that when a git commit is pushed,
-it will allow triggering of build server for this repo.
++ Adding Webhook on the git repo which we want to build so that when a git commit is pushed, it will allow triggering of build server for this repo.
+```
 In the github repo [project], go to Settings  -> Webhooks & services  -> Add webhook 
 -> Enter the IP and Jenkins (GitHub plugin) as:
-```
 http://<IP>:8080/github-webhook/
-``` 
 Note: Make sure Git is installed on the droplet hosting jenkins.
-
+```
 
 + Configure job on Jenkins server.
 - Create a new job.
@@ -123,9 +121,6 @@ To avoid sudo warning: Add in jenkins /etc/sudoers:
 Note:
 While creating different jobs for different branches, add the corresponding branch name
 after GIT repo URL.
-```
-___
-
 
 **SCREENCAST LINK: **
 
