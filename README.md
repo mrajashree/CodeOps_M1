@@ -123,6 +123,7 @@ To avoid sudo warning: Add in jenkins /etc/sudoers:
 Note:
 While creating different jobs for different branches, add the corresponding branch name
 after GIT repo URL.
+```
 ___
 
 
