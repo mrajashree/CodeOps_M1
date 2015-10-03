@@ -8,9 +8,9 @@
 *Ravina Dhruve - rrdhruve*
 
 **CONTRIBUTION**
-Kriti Bhandari - Droplet creation + README
-Rajashree Mandaogane - Building Jenkins server and gif
-Ravina Dhruve - Post build execution and README
++ Kriti Bhandari - Droplet creation and README
++ Rajashree Mandaogane - Building Jenkins server and gif
++ Ravina Dhruve - Post build execution and README
 ___
 
 ### LINK TO PROJECT REPO
@@ -128,7 +128,7 @@ ___
 
 **SCREENCAST LINK: **
 
-![gif Recording](https://github.ncsu.edu/rrdhruve/HW/blob/master/HW1/screencasts/HW1.gif)
+![alt text](./m1.gif "Gif recording")
 
 Tool used: Camtasia
 ___
